@@ -1,0 +1,199 @@
+[
+    {
+        "category": "Database Catalogs",
+        "links": [
+            {
+                "logo": "src/assets/links/ungrouped/re3datalogo_nosubtext_black.png",
+                "link": "https://www.re3data.org/search?query=HBVdb",
+                "description": "Research data's value and accessibility challenge academia. Re3data, a global registry, aids finding suitable data repositories, encouraging sharing and visibility. Funded by DFG, it merged with Databib, enhances connections, offers reliable repository information, and aims for community-driven growth through funding, advanced APIs, and integrations."
+            },
+            {
+                "logo": "src/assets/links/ungrouped/fairsharing-logo.svg",
+                "link": "https://fairsharing.org/search?q=HBVdb",
+                "description": "A curated, informative and educational resource on data and metadata standards, inter-related to databases and data policies. Guides consumers to discover, ..."
+            },
+            {
+                "logo": "src/assets/links/ungrouped/DC-LOGO.svg",
+                "link": "https://ngdc.cncb.ac.cn/databasecommons/search?term=virology",
+                "description": "Database Commons is a curated catalog of worldwide biological databases, with the aim to provide a full landscape of biological databases throughout the ..."
+            },
+            {
+                "logo": "src/assets/links/ungrouped/elixir_biotools_transparent.png",
+                "link": "https://bio.tools/",
+                "description": "bio.tools is an integral part of the ELIXIR Tools Platform, enabling the development, description, discovery, re-use, deployment and benchmarking of software ..."
+            },
+            {
+                "logo": "src/assets/links/ungrouped/oxford-academic-journals-693934141.svg",
+                "link": "https://www.oxfordjournals.org/nar/database/subcat/5/18",
+                "description": "Biocomputational tools and database resources provide a wealth of valuable information about viral genomic sequences, molecular structures and ..."
+            }
+        ]
+    },
+    {
+        "category": "Knowledge_databases",
+        "links": [
+
+            {
+                "logo": "src/assets/links/knowlagdge base/viralzone.jpg",
+                "link": "https://viralzone.expasy.org/",
+                "description": "A knowledge resource to understand virus diversity and a gateway to UniProtKB/Swiss-Prot viral entries."
+            },
+            {
+                "logo": "src/assets/links/knowlagdge base/sviperdb.org.png",
+                "link": "https://viperdb.org/",
+                "description": "VIPERdb is a web interface for exploring virus structures. We analyze PDB atomic coordinates and provide a collection of useful structure-derived data and ..."
+            },
+            {
+                
+                "logo": "src/assets/links/knowlagdge base/ictvLogo-head.png",
+                "link": "https://ictv.global/",
+                "description": "International Committee on Taxonomy of Viruses: ICTV. Official Taxonomic Resources."
+            },
+            {
+                "logo": "src/assets/links/knowlagdge base/gntop2.gif",
+                "link": "https://www.genome.jp/virushostdb/?",
+                "description": "Virus-Host DB organizes data about the relationships between viruses and their hosts, represented in the form of pairs of NCBI taxonomy IDs for viruses and ..."
+            }
+        ]
+    },
+    {
+        "category": "Repositories",
+        "links": [
+
+          
+            {
+                "logo": "src/assets/links/Repositories/insdc.png",
+                "link": "https://www.insdc.org/",
+                "description": "Submit your virus sequences and corresponding metadata to the global sequence repositories consisting of the INSDC database collaboration between NCBI GenBank, ENA and the DDBJ."
+              },
+              {
+                "logo": "src/assets/links/Metadata_Standards/Ncbivirus.png",
+                "link": "https://www.ncbi.nlm.nih.gov/labs/virus/vssi/docs/submit/",
+                "description": "Submit your virus sequences and corresponding metadata to the National Center for Bioinformatics GenBank."
+              },
+              {
+                "logo": "src/assets/links/Repositories/ENA_logo.png",
+                "link": "https://www.ebi.ac.uk/ena/browser/submit",
+                "description": "Submit your virus sequences and corresponding metadata to the European Nucleotide Archive."
+              },
+              {
+                "logo": "src/assets/links/Repositories/ddbj.png",
+                "link": "https://www.ddbj.nig.ac.jp/",
+                "description": "Submit your virus sequences and corresponding metadata to the Data Bank of Japan."
+              }
+        ]
+    },
+    {
+        "category": "Metadata_Standards",
+        "links": [
+
+            {
+                "logo": "src/assets/links/Metadata_Standards/ml.png",
+                "link": "https://microbiomedata.github.io/mixs-6-2-release-candidate/MigsVi/",
+                "description": "MIGSVi is a standard developed by the Genome Standards Consortium for capturing and exchanging information about the minimum information required for reporting a viral genome."
+            },
+            {
+                "logo": "src/assets/links/Metadata_Standards/mixs.png",
+                "link": "https://genomicsstandardsconsortium.github.io/mixs/Miuvig/",
+                "description": "MIUVIG is a standard developed by the Genome Standards Consortium for capturing and exchanging information about the minimum information required for reporting a virome."
+            },
+            {
+                "logo": "src/assets/links/Metadata_Standards/ENA_logo.png",
+                "link": "https://www.ebi.ac.uk/ena/browser/checklists",
+                "description": "ENA Checklists provide standards and guidelines for submitting metadata to the European Nucleotide Archive (ENA)."
+            }
+        ]
+    },
+    {
+        "category": "Genomic_sequences_databases",
+        "links": [
+
+            {
+                "logo": "src/assets/links/genomic_sequences_databases/ncbi-logo@2x.png",
+                "link": "https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/",
+                "description": "NCBI Virus. is a community portal for viral sequence data from RefSeq, GenBank and other NCBI repositories. To find, retrieve and analyze data, ..."
+            },
+            {
+                "logo": "src/assets/links/genomic_sequences_databases/rvdb.png",
+                "link": "https://rvdb.dbi.udel.edu/",
+                "description": "Database refinement efforts were initiated from RVDBv19.0. These include removal of misannotated sequences and irrelevant viral sequences in U-RVDB, ..."
+            },
+            {
+                "logo": "src/assets/links/genomic_sequences_databases/logo.png",
+                "link": "https://vogdb.org/",
+                "description": "We provide an overview of tools and algorithms for handling viral sequencing data, detecting functionally important RNA structures, classifying viral proteins ..."
+            },
+            {
+                "logo": "src/assets/links/genomic_sequences_databases/bv-brc-header-logo.png",
+                "link": "https://www.bv-brc.org/",
+                "description": "Welcome to the Bacterial and Viral Bioinformatics Resource Center (BV-BRC), an information system designed to support research on bacterial and viral ..."
+            },
+            {
+                "logo": "src/assets/links/genomic_sequences_databases/logo4-ed3b954b9acb2e6eec9fb45accea8330.png",
+                "link": "https://virxicon.cs.put.poznan.pl/",
+                "description": "Poznan University of Technology. Institute of Bioorganic Chemistry, Polish Academy of Sciences. Mittweida University of Applied Sciences."
+            },
+            {
+                "logo": "src/assets/links/genomic_sequences_databases/interprodb.jpg",
+                "link": " https://www.ebi.ac.uk/interpro/",
+                "description": " InterPro provides functional analysis of proteins by classifying them into families and predicting domains and important sites. "
+            },
+            {
+                "logo": "src/assets/links/genomic_sequences_databases/front-banner-purple.svg",
+                "link": "https://phrogs.lmge.uca.fr/index.php ",
+                "description": " This database contains 38,880 PHROGs (protein orthologous groups) containing 868,340 proteins from complete genomes of viruses infecting bacteria or archaea ... "
+            },
+            {
+                "logo": "src/assets/links/genomic_sequences_databases/git.png",
+                "link": "https://github.com/RyanCook94/inphared",
+                "description": " GitHub - RyanCook94/inphared: Providing up-to-date phage genome databases, metrics and useful input files for a number of bioinformatic pipelines. "
+            }
+        ]
+    },
+    {
+        "category": "Other_omics_databases",
+        "links": [
+            {
+                "logo": "src/assets/links/other_omics_databases/logo-JGI-IMG-VR1.png",
+                "link": "https://img.jgi.doe.gov/cgi-bin/vr/main.cgi",
+                "description": "Microbes drive critical ecosystem functions and affect global nutrient cycling along with human health and disease, but do so under strong constraints exerted by viruses. Viral infections shape the structure of microbial communities, shift host cell metabolism, and drive ecological and evolutionary processes across microbial ecosystems."
+            },
+            {
+                "logo": "src/assets/links/other_omics_databases/logo.6e558716.png",
+                "link": "https://mvip.whu.edu.cn/",
+                "description": "MVIP provides a large number of available multi-omics data under viral infection in various species. In detail, MVIP manually collected and .."
+            },
+            {
+                "logo": "src/assets/links/other_omics_databases/logo.png",
+                "link": "https://viralhostrangedb.pasteur.cloud/",
+                "description": "The aim of the VHRdb is to provide to the community the data generated by scientists documenting the host range of their favorite virus through an easy (copy/ ..."
+            },
+            {
+                "logo": "src/assets/links/other_omics_databases/nfdi4microbiota_Logo_new.png ",
+                "link": " https://nfdi4microbiota.de/",
+                "description": " The mission of the NFDI4Microbiota consortium is to be the central hub in Germany for supporting the microbiology community with access to data, analysis services, data/metadata standards, and training."
+            }
+
+        ]
+    },
+    {
+        "category": "Virus_specific_databases",
+        "links": [
+            {
+                "logo": "src/assets/links/virus_specific_databases/schild.png",
+                "link": "https://gisaid.org/",
+                "description": "With the core principals of timely international sharing of health data for protecting populations against lethal infectious disease outbreaks and adherence to ..."
+            },
+            {
+                "logo": "src/assets/links/virus_specific_databases/CV19DP_logo_oneliner2.svg",
+                "link": "https://www.covid19dataportal.org/",
+                "description": "The COVID-19 Data Portal was launched in April 2020 to bring together relevant datasets for sharing and analysis in an effort to accelerate coronavirus ..."
+            },
+            {
+                "logo": "src/assets/links/virus_specific_databases/stanford.png",
+                "link": "https://covdb.stanford.edu/",
+                "description": "Stanford Coronavirus Antiviral & Resistance Database houses comprehensively curated published data on the susceptibility of SARS-CoV-2 variants to ..."
+            }
+        ]
+    }
+]

@@ -1,0 +1,43 @@
+// apiConfig.js
+
+const apiConfig = {
+    browse: 'http://192.168.10.12:7000/api/browse/',
+    downloads: 'http://192.168.10.12:7000/api/downloads/',
+    downloadsCSV: 'http://192.168.10.12:7000/api/downloadsCSV/',
+    searchAdvTable: 'http://192.168.10.12:7000/api/searchAdvTable/',
+    searchCardOverview: 'http://192.168.10.12:7000/api/searchCardOverview/',
+    searchTable: 'http://192.168.10.12:7000/api/searchTable/',
+    searchTableArchaealViruses: 'http://192.168.10.12:7000/api/searchTableArchaealViruses/',
+    searchTableBacteriophages: 'http://192.168.10.12:7000/api/searchTableBacteriophages/',
+    searchTableInfluenzaviruses: 'http://192.168.10.12:7000/api/searchTableInfluenzaviruses/',
+    searchTableSARS_Cov_2: 'http://192.168.10.12:7000/api/searchTableSARS-Cov-2/',
+    searchTaxonomy: 'http://192.168.10.12:7000/api/searchTaxonomy/',
+    taxonomyRank: 'http://192.168.10.12:7000/api/taxonomyRank/',
+    functionsUpdateCharts: 'http://192.168.10.12:7000/api/functionsUpdateCharts/',
+    FunctionsUpdateWorldmap: 'http://192.168.10.12:7000/api/FunctionsUpdateWorldmap/',
+    searchAdvCard: 'http://192.168.10.12:7000/api/searchAdvCard/',
+    searchCard: 'http://192.168.10.12:7000/api/searchCard/',
+    searchCardArchaealViruses: 'http://192.168.10.12:7000/api/searchCardArchaealViruses/',
+    searchCardBacteriophages: 'http://192.168.10.12:7000/api/searchCardBacteriophages/',
+    searchCardInfluenzaviruses: 'http://192.168.10.12:7000/api/searchCardInfluenzaviruses/',
+    searchCardSARS_Cov_2: 'http://192.168.10.12:7000/api/searchCardSARS-Cov-2/',
+    searchTableColNames: 'http://192.168.10.12:7000/api/searchTableColNames/',
+    searchTableRefineOptions: 'http://192.168.10.12:7000/api/searchTableRefineOptions/',
+    sourceViralZoneDict: 'http://192.168.10.12:7000/api/sourceViralZoneDict/',
+    statsBaltimore: 'http://192.168.10.12:7000/api/statsBaltimore/',
+    statsCurrentVersion: 'http://192.168.10.12:7000/api/statsCurrentVersion/',
+    statsDataSource: 'http://192.168.10.12:7000/api/statsDataSource/',
+    statsHost: 'http://192.168.10.12:7000/api/statsHost/',
+    statsRank: 'http://192.168.10.12:7000/api/statsRank/',
+    statsSummary: 'http://192.168.10.12:7000/api/statsSummary/',
+    statsSummaryChart: 'http://192.168.10.12:7000/api/statsSummaryChart/',
+    statsTop10GeneraDict: 'http://192.168.10.12:7000/api/statsTop10GeneraDict/',
+    statsTop10GeneraList: 'http://192.168.10.12:7000/api/statsTop10GeneraList/',
+    statsWorldMap: 'http://192.168.10.12:7000/api/statsWorldMap/',
+    taxonomyRankCard: 'http://192.168.10.12:7000/api/taxonomyRankCard/',
+    test: 'http://192.168.10.12:7000/api/test/',
+    updateGenera: 'http://192.168.10.12:7000/api/updateGenera/',
+  };
+  
+  export default apiConfig;
+  

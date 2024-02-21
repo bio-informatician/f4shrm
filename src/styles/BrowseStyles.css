@@ -1,0 +1,140 @@
+/* Container Styles */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  padding: 1rem;
+}
+
+/* Description Section Styles */
+.description-section {
+  width: 100%;
+  max-width: 800px;
+  text-align: center;
+}
+
+.description-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.description-text {
+  font-size: 1rem;
+  margin-top: 1rem;
+  color: #555;
+}
+
+.description-link {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+
+
+}
+
+
+
+/* Search Box Styles */
+.search-box {
+  width: 40%;
+  max-width: 400px;
+  display: flex;
+  justify-content: center;
+}
+
+.search-input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  font-size: 1rem;
+  outline: none;
+  align-items: center;
+  margin-left: 5px;
+
+
+}
+
+/* Navigation Styles */
+.navigation {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.go-back {
+  background-color: #007bff;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+
+}
+
+.breadcrumbs {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  padding-right: 10px;
+}
+
+.breadcrumb-item {
+  cursor: pointer;
+  font-size: 16px;
+  color: #a8c9ec;
+  transition: color 0.3s ease;
+
+
+
+
+
+}
+
+/* Result Boxes Styles */
+.results {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.result-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.result-content {
+  width: 100%;
+  max-width: 800px;
+}
+
+.result-box {
+  background-color: #f0f0f0;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+
+}
+
+/* Footer Styles */
+.footer {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 0.875rem;
+  color: #555;
+}
+
+.myCustomClass {
+  font-size: 16px;
+  font-weight: bold;
+}

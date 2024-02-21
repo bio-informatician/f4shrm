@@ -1,0 +1,77 @@
+/* FAQStyles.css */
+/* Add this style to make sure the search box is not hidden behind the menu */
+.w-full {
+    z-index: 1;
+    position: relative;
+  }
+  
+
+.faq-container {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1200px;
+  }
+  
+  .faq-section {
+    text-align: center;
+  }
+  
+  .faq-search {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+  }
+  
+  .faq-collapse {
+    display: flex;
+    justify-content: center;
+  }
+  
+.w-full {
+    width: 100%;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .flex-col {
+    flex-direction: column;
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .contact-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .paragraph-container {
+    font-size: 16px;
+    line-height: 1.6;
+    padding: 16px;
+  }
+  
+  .contact-email {
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  
+  .contact-email p {
+    margin-bottom: 8px;
+  }
+  
+  .contact-email a {
+    color: #1890ff;
+  }
+  

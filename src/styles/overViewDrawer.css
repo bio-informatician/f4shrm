@@ -1,0 +1,27 @@
+.overview-container {
+    padding: 20px;
+  }
+  
+  .overview-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .overview-label {
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  .overview-value {
+    font-size: 16px;
+    color: #31304D;
+  }
+  
+  .drawer-footer {
+    text-align: right;
+    padding-top: 20px;
+  }
+  

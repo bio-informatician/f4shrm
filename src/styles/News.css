@@ -1,0 +1,83 @@
+/* News.css */
+
+/* Container Styles */
+.news-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f8f8f8;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Header Styles */
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 28px;
+  color: #333;
+}
+
+.date {
+  font-size: 16px;
+  color: #777;
+}
+
+/* Content Styles */
+.content {
+  line-height: 1.6;
+}
+
+.intro {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Key Features Styles */
+.features h2 {
+  color: hsl(0, 0%, 0%);
+}
+
+.features ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+/* Data Sources Styles */
+.data-sources h2 {
+  color: #000000;
+}
+
+.data-sources ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+/* Summary Styles */
+.summary h2 {
+  color: #000000;
+}
+
+.summary ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+/* Footer Styles */
+.footer {
+  margin-top: 20px;
+  color: #777;
+}
+
+.note a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.note a:hover {
+  text-decoration: underline;
+}

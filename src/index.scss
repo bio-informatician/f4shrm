@@ -1,0 +1,44 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// @font-face {
+//   font-family: "Urbanist";
+//   src: url("../src/assets/fonts/Urbanist-VariableFont_wght.ttf") format("truetype"); 
+// }
+
+// @font-face {
+//   font-family: "Oswald";
+//   src: url("../src/assets/fonts/Oswald-VariableFont_wght.ttf") format("truetype"); 
+// }
+
+body {
+  margin: 0;
+  font-family: 'Urbanist', sans-serif;
+  -webkit-font-smoothing: OSWand;
+  -moz-osx-font-smoothing: OSWand;
+  background-color: #f0f2f5;
+}
+
+code {
+  font-family: "OSWand" !important;
+}
+
+/* ---------------------- */
+
+.header .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+  width: 120px;
+  height: 31px;
+  background: rgba(255, 255, 255, 0.3);
+  
+}
+
+.site-layout-background {
+  background: #fff;
+}
+.ant-btn-primary {
+  background-color: #1677ff !important;
+}

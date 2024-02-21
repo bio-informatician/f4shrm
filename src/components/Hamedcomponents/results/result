@@ -1,0 +1,72 @@
+// import React, { useState } from 'react';
+// import FilterColumnModal from '../results/FilterColumnModal';
+// import RefineDrawer from '../results/RefineDrawer';
+// import OverViewDrawer from '../results/OverViewDrawer';
+// import Table from '../results/Table';
+// import Pagination from '../results/Pagination';
+// import CardViewButton from '../results/CardViewButton';
+// import TableViewButton from '../results/TableViewButton';
+// import BvbrcLogo from '../results/BvbrcLogo';
+// import NcbiLogo from '../results/NcbiLogo';
+// import PubMedLogo from '../results/PubMedLogo';
+// import Tooltip from '../results/Tooltip';
+
+// const ResultsPage = () => {
+//   const [isTableView, setIsTableView] = useState(false);
+//   const [data, setData] = useState([]); // Your data state
+//   const [selectedRowKeys, setSelectedRowKeys] = useState([]); // Selected row keys state
+//   const [selectedRow, setSelectedRow] = useState([]); // Selected row data state
+//   const [loading, setLoading] = useState(false); // Loading state
+//   const [pageNumber, setPageNumber] = useState(1); // Current page number
+//   const [pageTotalNumber, setPageTotalNumber] = useState(10); // Total number of pages
+//   const [totalCount, setTotalCount] = useState(null); // Total count state
+//   const [advText, setAdvText] = useState(''); // Advanced search text
+//   const [backendSearchTerm, setBackendSearchTerm] = useState([]); // Backend search terms
+
+//   // Handle view preference change
+//   const handleViewPreferenceChange = (view) => {
+//     setIsTableView(view === 'table');
+//   };
+
+//   // Your data fetching and manipulation functions here...
+
+//   return (
+//     <div>
+//       <FilterColumnModal />
+//       <RefineDrawer />
+//       <OverViewDrawer />
+//       <Table
+//         data={data}
+//         selectedRowKeys={selectedRowKeys}
+//         setSelectedRowKeys={setSelectedRowKeys}
+//         setSelectedRow={setSelectedRow}
+//         loading={loading}
+//         isTableView={isTableView}
+//         columns={/* Pass your table columns here */}
+//         onPageNumberChange={setPageNumber}
+//       />
+//       <Pagination
+//         pageNumber={pageNumber}
+//         pageTotalNumber={pageTotalNumber}
+//         total={totalCount}
+//         onPageNumberChange={setPageNumber}
+//         setPageTotalNumber={setPageTotalNumber}
+//       />
+//       <CardViewButton
+//         isTableView={isTableView}
+//         handleViewPreferenceChange={handleViewPreferenceChange}
+//       />
+//       <TableViewButton
+//         isTableView={isTableView}
+//         handleViewPreferenceChange={handleViewPreferenceChange}
+//       />
+//       <BvbrcLogo />
+//       <NcbiLogo />
+//       <PubMedLogo />
+//       <Tooltip />
+//       {/* Other JSX code */}
+//     </div>
+//   );
+// };
+
+// export default ResultsPage;

@@ -1,0 +1,84 @@
+
+
+/* Define the styles for your custom modal class */
+.custom-modal {
+    width: 30%; /* Set your desired width here */
+  }
+  
+
+.site-description-item-profile-wrapper {
+    /* ...your styles here... */
+}
+
+.site-description-item-profile-p-label {
+    /* ...your styles here... */
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.gap-x-3 {
+    gap: 0 0.75rem;
+}
+
+.flex.justify-center.items-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.overflow-scroll {
+    overflow: scroll;
+}
+
+.whitespace-normal {
+    white-space: normal;
+}
+
+.overflow-auto {
+    overflow: auto;
+}
+
+.overflow-x-hidden {
+    overflow-x: hidden;
+}
+
+.whitespace-nowrap {
+    white-space: nowrap;
+}
+
+.site-description-item-profile-p {
+    /* ...your styles here... */
+}
+/* FilterColumnModal.css */
+
+/* Adjust the number of columns as needed */
+.column-checkbox-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px; /* Adjust the gap as needed */
+    max-width: 80%; /* Set the maximum width to 80% of the parent container */
+    margin: 0 auto; /* Center the container horizontally */
+  }
+  
+  /* Style individual column items */
+  .column-checkbox-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Responsive layout for smaller screens (e.g., mobile devices) */
+  @media (max-width: 768px) {
+    .column-checkbox-grid {
+      grid-template-columns: repeat(1, 1fr); /* Display one column for smaller screens */
+    }
+  }
+  

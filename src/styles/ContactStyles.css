@@ -1,0 +1,75 @@
+/* Add these styles to your existing CSS */
+
+/* Increase font size for better readability */
+.contact-container,
+.glass-pane {
+  font-size: 18px;
+}
+
+/* Enhance color contrast */
+.text-white {
+  color: #000000;
+}
+
+/* Choose appropriate font weight */
+.contact-container h1,
+.glass-pane h1,
+.contact-container h2,
+.glass-pane h2 {
+  font-weight: bold;
+}
+
+/* Adjust line spacing */
+.contact-container p,
+.glass-pane p {
+  line-height: 1.6;
+}
+
+/* Apply subtle text shadow */
+.text-shadow {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Set the background image to the contact-container */
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Ensure at least full viewport height */
+  margin: 0;
+  padding: 0;
+  /* background-image: url('../assets/jena.jpg'); Path to the jena.jpg located in the public directory */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 40px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.glass-pane {
+  width: 100%;
+  max-width: 800px; /* Set a maximum width for the glass pane */
+  padding: 3rem;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  box-shadow: 0 8px 32px 0 rgba(139, 142, 177, 0.37);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  /* Remove margin-top property to center vertically */
+}
+
+/* Mobile styling */
+@media (max-width: 768px) {
+  .contact-container {
+    padding: 3rem;
+  }
+}
+
+/* Desktop styling */
+@media (min-width: 768px) {
+  .contact-container {
+    padding: 5rem;
+  }
+}

@@ -1,0 +1,82 @@
+/* SearchHistory.css */
+
+/* Container for the entire component */
+.search-history-container {
+  margin-top: 10px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden; /* Hide scrollbars */
+    max-height: 100%; /* Allow the container to expand to its content */
+  }
+  
+  /* List item */
+  .history-list-item {
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .history-list-item.editing {
+    background-color: #f0f8ff; /* Light blue for editing mode */
+    padding: 20px;
+  }
+  
+  /* Cursor pointer for clickable elements */
+  .cursor-pointer {
+    cursor: pointer;
+  }
+  
+  /* Tooltip styling */
+  .ant-tooltip-inner {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Button styling */
+  .ant-btn-primary {
+    background-color: #1890ff;
+    border-color: #1890ff;
+  }
+  
+  .ant-btn-danger {
+    background-color: #ff4d4f;
+    border-color: #ff4d4f;
+    color: #fff;
+  }
+  
+  /* Icon styling */
+  .anticon {
+    font-size: 18px;
+  }
+  
+
+  
+  /* Table action button margin */
+  .ant-btn {
+    margin-left: 0px;
+  }
+  
+  /* Textarea styling in edit mode */
+  .textarea-edit {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    resize: vertical;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .search-history-container {
+      padding: 10px;
+    }
+  }
+  

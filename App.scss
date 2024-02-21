@@ -1,0 +1,838 @@
+/* .App {
+   text-align: center; 
+} */
+
+@font-face {
+  font-family: "Yekan";
+  src: local("fonts"),
+    url("../src/assets/fonts/IRANYekanMobileMedium.ttf") format("truetype"); /* Safari, Android, iOS */
+}
+
+.ant-layout {
+  padding-bottom: 0px !important;
+}
+
+
+.bottomCol {
+  position: fixed;
+  bottom: 0;
+
+  /* And if you want the div to be full-width: */
+  left: 0;
+  right: 0;
+  margin-bottom: 27px;
+  margin-right: 35px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.text-block {
+  position: absolute;
+  bottom: -20px;
+  right: 15px;
+  text-align: center;
+}
+.text-blockk {
+  position: absolute;
+  border: 1px solid red;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+
+  /* color: white; */
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/********************************/
+/*           scrollbar          */
+/********************************/
+.scrollbar-normal {
+  /* overflow-y: auto; */
+  overflow-x: hidden;
+  height: 100%;
+}
+
+.scrollbar-normal::-webkit-scrollbar-track {
+  background-color: #f5f5f5;
+}
+
+.scrollbar-normal::-webkit-scrollbar {
+  width: 7px;
+  background-color: #f5f5f5;
+}
+
+.scrollbar-normal::-webkit-scrollbar-thumb {
+  background-color: #ddd;
+}
+
+.scrollbar-normal.scrollbar-dark::-webkit-scrollbar-thumb {
+  background-color: #a5a5a5;
+}
+
+.scrollbar-normal.scrollbar-thin::-webkit-scrollbar {
+  width: 4px;
+}
+
+/********************************/
+/*          Typography          */
+/********************************/
+.captionText {
+  font-size: 12px;
+}
+
+.ant-typography {
+  margin-bottom: 0 !important;
+}
+
+/********************************/
+/*             FLEX             */
+/********************************/
+.rowFlex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.flexStart {
+  justify-content: flex-start;
+}
+
+.flexEnd {
+  justify-content: flex-end;
+}
+
+/* /// */
+.code-box {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  margin: 0 0 16px;
+  border: 1px solid #f0f0f0;
+  border-radius: 2px;
+  transition: all 0.2s;
+}
+
+/********************************/
+/*            TABLE             */
+/********************************/
+
+.ant-form-rtl .ant-form-item-label {
+  text-align: right !important;
+}
+
+/********************************/
+/*          scrollbar           */
+/********************************/
+.scrollbar-normal {
+  /* overflow-y: auto; */
+  overflow-x: hidden;
+  height: 100%;
+}
+
+.scrollbar-normal::-webkit-scrollbar-track {
+  background-color: #f5f5f5;
+}
+
+.scrollbar-normal::-webkit-scrollbar {
+  width: 7px;
+  background-color: #f5f5f5;
+}
+
+.scrollbar-normal::-webkit-scrollbar-thumb {
+  background-color: #ddd;
+}
+
+.scrollbar-normal.scrollbar-dark::-webkit-scrollbar-thumb {
+  background-color: #a5a5a5;
+}
+
+.scrollbar-normal.scrollbar-thin::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Modal */
+
+.ant-modal-body {
+  padding: 15px !important;
+  width:auto
+}
+
+/* Overlay */
+.image-overlay {
+  position: relative;
+}
+
+.image-overlay img {
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.image-overlay .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.ant-form-item-label label {
+  font-size: 15px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.ant-form-item-label required {
+  color: blue;
+  background-color: blueviolet;
+}
+.demo-infinite-container {
+  height: 300px;
+  padding: 8px 4px;
+  overflow: auto;
+  border-radius: 4px;
+}
+
+.bgcolor {
+  background: linear-gradient(rgba(250, 0, 0, 0.5), transparent);
+  background-color: orange; /*this your primary color*/
+}
+
+/* //------------------------------------------- */
+.test {
+  width: 100wh;
+  height: 100vh;
+  color: #fff;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 30s ease infinite;
+  -moz-animation: Gradient 30s ease infinite;
+  animation: Gradient 30s ease infinite;
+}
+
+.keyboard {
+  width: 100wh;
+  height: 100vh;
+  color: #fff;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #000000);
+  background-size: 400% 400%;
+}
+
+.paused {
+  -webkit-animation-play-state: paused; /* Safari 4.0 - 8.0 */
+  animation-play-state: paused;
+}
+
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@-moz-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* ------------------------------------ */
+/* .ali {
+background: 
+#ffda91 !important;
+background-color: 
+#ff8725 !important; 
+font-size: larger;
+color: #630ceef8 !important;
+text-decoration-color: #282c34;
+border: none;
+text-align: center;
+}
+
+input:last-child::placeholder {
+   color: rgb(255, 255, 255);
+} */
+
+/* 
+.imgforb {
+  min-height: 100%;
+   background-image: url(../src/assets/images/ali.svg);
+   background-repeat: no-repeat;
+   background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+} */
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+/* ////////////////////////////////////////////////// */
+
+.scrolls {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  max-width: 100%;
+}
+
+.scrolls::-webkit-scrollbar-track {
+  background-color: #f5f5f5;
+}
+
+.scrolls::-webkit-scrollbar {
+  background-color: #f5f5f5;
+  width: 3px;
+  height: 5px;
+}
+
+.scrolls::-webkit-scrollbar-thumb {
+  background-color: rgb(194, 214, 214);
+}
+
+.scrolls.scrollbar-dark::-webkit-scrollbar-thumb {
+  background-color: #a5a5a5;
+}
+
+.scrolls.scrollbar-thin::-webkit-scrollbar {
+  width: 3px;
+}
+
+.page {
+  width: 21cm;
+  min-height: 29.7cm;
+  padding: 2cm;
+  border: 1px #d3d3d3 solid;
+  border-radius: 5px;
+  background: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  position: "relative";
+  overflow: "auto";
+}
+
+/* Split the screen in half */
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  direction: rtl;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+  width: 150px;
+  /* border-radius: 50%; */
+}
+
+.bottompos {
+  position: fixed;
+  bottom: 0;
+  /* And if you want the div to be full-width: */
+  right: 0;
+}
+
+@page {
+  size: A4;
+  margin: 0;
+}
+
+/* @media print {
+body, html {
+width: 21cm !important;
+height: 28.7cm !important;
+margin: 0;
+}
+.print-preview {
+width: 20cm;
+height: 28.7cm;
+margin: 0;
+border: 5px solid #000;
+}
+} */
+
+.cursor {
+  cursor: pointer;
+}
+
+.textarea1 {
+  resize: none;
+}
+
+.main-search-input-field {
+  background-color: gray;
+}
+
+.printWindow {
+  font-family: "Yekan";
+}
+
+// .ant-table-body {
+//   max-height: 600px !important;
+// }
+
+.ant-pagination.ant-table-pagination {
+  justify-content: center;
+  display: flex;
+  margin-top: 10px !important;
+}
+
+.box3 img {
+  object-fit: fill;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  min-height: 766px !important;
+}
+
+.mainimage {
+  background: url("./assets/back-three.jpg") no-repeat center center;
+  width : 100% ;
+  height : 100px ;
+
+}
+
+.ant-tabs-nav-list {
+  width: 100% !important;
+}
+
+.ant-tabs-tab {
+  width: 33% !important;
+  text-align: center !important;
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.hoverIcon {
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.Events-Class {
+  height: 80% !important;
+  position: relative;
+}
+
+#outer {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+#wrapper /* adding flex */ {
+  display: flex;
+  flex-flow: column;
+  height: calc(100vh);
+}
+
+#inner {
+  height: 100%;
+}
+
+// .content-class {
+//   max-height: calc(100vh - 400px);
+//   position: fixed;
+//   margin-bottom: 40px;
+// }
+
+
+
+
+.events {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.events .ant-badge-status {
+  width: 100%;
+  overflow: hidden;
+  font-size: 12px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.notes-month {
+  font-size: 28px;
+  text-align: center;
+}
+.notes-month section {
+  font-size: 28px;
+}
+
+
+// .ResultPage .ant-table {
+//   max-height: 70vh !important;
+//   overflow: auto;
+//   margin-bottom: 2rem !important;
+// }
+
+.fitContetnClass {
+  max-width: fit-content;
+}
+
+//عوض کردن رنگ پس زمینه صفحه ی بروز
+.browse-content {
+  background-color: #3E54AC !important;
+  border-radius: 5px;
+}
+
+// عوض کردن رنگ هر باکس صفحه ی بروز
+
+.box-browse {
+  border-radius: 5px !important;
+  background-color: #BFDCE5 !important;
+}
+.recomeSearch { 
+  @media screen and (max-width:768px) {
+    flex-direction: column;
+    row-gap: 1rem/* 16px */;
+  }
+  }
+.table-striped-rows tr:nth-child(2n) td {
+    background-color: #fbfbfb;
+   
+}
+
+.table-striped-rows thead {
+    background-color: #F0F0F0;
+
+}
+
+.ant-table-cell.ant-table-column-has-sorters{
+  background-color: #ECF2FF !important;
+}
+.ant-table-cell.ant-table-selection-column{
+  background-color: #ECF2FF !important;
+}
+.ant-table-thead .ant-table-cell.ant-table-selection-column.ant-table-cell-fix-left{
+  background-color: #ECF2FF !important;
+}
+.tag-class {
+  // max-width: 70% !important;
+  overflow: auto;
+  margin-inline-start : 8px !important
+  // border-radius: 5px;
+}
+
+// .custom-button {
+//   &:hover{
+//     color: yellow !important;
+//   }
+//   &:focus {
+//     color: purple !important;
+//   }
+// }
+
+// .custom-menu{
+//   &:hover{
+//     color: red !important;
+//   }
+// }
+
+.customDesktopMenu {
+
+  .ant-menu-title-content:hover{
+    color: white !important;
+    font-weight: bold !important;
+    
+  }
+  
+  .ant-menu-item-selected {
+    color: white !important;
+    font-weight: bolder;
+  }
+  
+  .ant-menu-item:hover{
+    color: white !important;
+    
+  
+  }
+
+}
+
+.customMobileMenu {
+  .ant-menu-title-content{
+    color: black !important;
+  }
+  .ant-menu-vertical {
+    padding-top: 20px;
+  }
+}
+
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+.ant-menu-horizontal {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+
+.custom-button .ant-btn-primary {
+  background-color: #1677ff !important;
+  border-color: #1677ff !important;
+  color: white !important
+}
+
+
+.tag-box {
+  min-width: 20vw !important
+  
+}
+
+@media screen and (max-width : 576px) {
+  .tag-box {
+    min-width: 100% !important
+  }
+}
+
+.result-container {
+  max-height: 100vh !important;
+}
+
+
+
+.numeric-input .ant-tooltip-inner {
+  min-width: 32px;
+  min-height: 37px;
+}
+
+.numeric-input .numeric-input-title {
+  font-size: 14px;
+}
+
+.ant-table-cell {
+  padding: 8px 8px !important;
+
+  p {
+    margin-bottom: 0px !important;
+  }
+}
+
+.simpleSearchBackGround {
+  background: #1c92d2;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #b3edf8, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  border-radius: 5px;
+  
+}
+
+
+.selectedFilteredBox {
+  @apply flex flex-row whitespace-nowrap w-full bg-gray-100 gap-x-4 items-center justify-center rounded-lg p-2 border border-red-200 cursor-pointer relative
+}
+
+.pie-chart-class {
+  min-height: 20rem !important;
+}
+
+.col-border {
+  @media screen and (min-width : 576px) {
+    border-right: 2px solid white;
+  }
+}
+
+.card-style {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px!important;
+}
+
+.pie-chart {
+  background-color: transparent !important;
+  border-radius: 10px !important;
+}
+
+.ant-table-cell.ant-table-selection-column {
+max-width: 20px !important;
+}
+
+
+
+.ant-table-selection-column {
+  width: 50px !important;
+}
+
+
+.card-none {
+  box-shadow: none !important;
+}
+
+
+@media screen and (max-width: 768px) {
+  .ant-drawer-body {
+    padding: 5px !important;
+  }
+}
+
+.ant-breadcrumb-separator {
+  color:  white !important ;
+}
+
+.icon-row {
+  display: flex;
+  align-items: center;
+}
+
+.table-striped-rows {
+  -ms-overflow-style: none !important;  /* Internet Explorer 10+ */
+  scrollbar-width: none !important;  /* Firefox */
+}
+.table-striped-rows::-webkit-scrollbar { 
+  display: none !important;  /* Safari and Chrome */
+}
+
+.add-remove-column-modal {
+  -ms-overflow-style: none !important;  /* Internet Explorer 10+ */
+  scrollbar-width: none !important;  /* Firefox */
+}
+
+.add-remove-column-modal::-webkit-scrollbar { 
+  display: none !important;  /* Safari and Chrome */
+}
+
+
+ul[id='MAINMENU'].ant-menu-horizontal {
+  display: flex !important;
+  justify-content: start !important;
+}
+

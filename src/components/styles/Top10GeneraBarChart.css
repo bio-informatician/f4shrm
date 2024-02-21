@@ -1,0 +1,61 @@
+/* Base styles */
+.chart-container {
+    overflow: hidden;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .chart-title {
+    text-align: center;
+    font-size: 24px;
+  }
+  
+  .yaxis-tick, .xaxis-tick {
+    fill: var(--text-color);
+  }
+  
+  /* Day mode styles */
+  .light-theme {
+    --background-color: #ffffff;
+    --text-color: black;
+    --grid-color: #d3d3d3;
+  }
+  
+  /* Night mode styles */
+  .dark-theme {
+    --background-color: #2c2c2c;
+    --text-color: #eaeaea;
+    --grid-color: #555555;
+  }
+  
+/* High contrast colors for color blindness and WCAG compliance */
+.colorblind-friendly-colors {
+    --color-1: #00429d; /* dark blue */
+    --color-2: #ef6548; /* coral */
+    --color-3: #5fc463; /* green */
+    --color-4: #ffd700; /* yellow */
+    --color-5: #8c564b; /* brown */
+    --color-6: #4b0082; /* indigo */
+    --color-7: #ff69b4; /* hot pink */
+    --color-8: #2ca02c; /* forest green */
+    --color-9: #ff7f0e; /* orange */
+    --color-10: #1f77b4; /* steel blue */
+  }
+  
+  
+  
+  /* Responsive styles */
+  @media (max-width: 500px) {
+    .chart-container {
+      padding: 5px;
+    }
+  
+    .chart-title {
+      font-size: 20px;
+    }
+  
+    .yaxis-tick, .xaxis-tick {
+      font-size: 10px;
+    }
+  }
+  

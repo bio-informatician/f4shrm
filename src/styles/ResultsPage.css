@@ -1,0 +1,40 @@
+/* ResultsPage.css */
+
+/* Style for the total count */
+.total-count {
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Styling the formatted number inside the total count */
+.total-count span {
+  display: inline-block;
+  padding: 8px 20px;
+  background-color: #e0e0e0; /* Gray background color */
+  border-radius: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333; /* Dark text color */
+}
+/* ResultsPage.css */
+
+/* Style for the highlighted text */
+.highlight {
+  background-color: yellow;
+  font-weight: bold;
+}
+
+/* ResultsPage.css */
+
+
+
+/* Adjust the width of the scrollbar as needed */
+.ant-table-body::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.ant-table-body::-webkit-scrollbar-thumb {
+  background-color: #d1c7c7; /* Scrollbar track color */
+  border-radius: 5px;
+}

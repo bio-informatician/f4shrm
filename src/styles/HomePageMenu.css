@@ -1,0 +1,56 @@
+/* Styles for both day and night modes */
+/* Additional styling for mobile view */
+@media screen and (max-width: 768px) {
+  /* Style for the search bar container in mobile view */
+  .search-bar-mobile {
+    position: absolute;
+    top: 170px;
+    left: 30%;
+    transform: translateX(-50%);
+    color: var(--text-color); /* Use a CSS variable for text color */
+  }
+
+  .ant-menu-horizontal {
+    /* Customize menu width and alignment */
+    width: 100%;
+    text-align: center;
+  }
+
+  .ant-menu-item,
+  .ant-menu-submenu-title {
+    /* Display menu items as blocks and center align them */
+    
+    display: block;
+    margin: 0;
+    width: 100%; /* Set width to 100% to ensure single column */
+  }
+
+  /* Styling for the container in mobile view */
+  .menu-container {
+    flex-direction: column-reverse; /* Stack elements vertically with search bar on top */
+    align-items: flex-end; /* Align content to the right */
+    padding: 20px 0;
+  }
+
+
+  .ant-menu-item.ant-menu-item-selected {
+    /* Customize selected item background color */
+    background-color: var(--selected-bg-color); /* Use a CSS variable for background color */
+  }
+}
+
+/* Night mode styles */
+.night-mode {
+  --text-color: lightgray; /* Text color in night mode */
+  --selected-bg-color: #001f3f; /* Selected item background color in night mode */
+  background-color: black; /* Background color in night mode */
+  color: var(--text-color); /* Set text color using the CSS variable */
+}
+
+/* Light mode styles */
+.light-mode {
+  --text-color: black; /* Text color in light mode */
+  --selected-bg-color: #ffffff; /* Selected item background color in light mode */
+  background-color: white; /* Background color in light mode */
+  color: var(--text-color); /* Set text color using the CSS variable */
+}
