@@ -254,8 +254,8 @@ const handleSimpleSearch = debounce(async (value, page) => {
 
     const result = await axios.get(
       isTableView
-        ? `http://192.168.10.12:7000/api/searchTable/${value ? value : state.value}`
-        : `http://192.168.10.12:7000/api/searchCard/${value ? value : state.value}`
+        ? `http://192.168.10.12:7000/api/searchTable/?term=${value ? value : state.value}`
+        : `http://192.168.10.12:7000/api/searchCard/?term=${value ? value : state.value}`
     );
 
     const { data } = result.data;
