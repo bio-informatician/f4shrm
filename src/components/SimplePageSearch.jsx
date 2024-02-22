@@ -41,6 +41,10 @@ const SimplePageSearch = () => {
       key: 'Archaea Viruses',
       value: 'ArchaealViruses',
     },
+    {
+      key: 'NonSARS-CoV-2',
+      value: 'NonSARS-CoV-2',
+    }
   ];
 
   const navigate = useNavigate();

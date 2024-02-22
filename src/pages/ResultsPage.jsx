@@ -341,7 +341,7 @@ const handleSimpleSearch = debounce(async (value, page) => {
       let results = await axios.get(
         `http://192.168.10.12:7000/api/taxonomyRank${
           !isTableView ? 'Card' : ''
-        }/${name},${subCategory}`
+        }/?term=${name},${subCategory}`
       );
 
       let { data } = results?.data;

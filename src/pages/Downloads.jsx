@@ -23,6 +23,14 @@ const Downloads = () => {
       date:'15.10.2023',
     },
     {
+      name: 'NonSARS-CoV-2',
+      url: 'http://192.168.10.12:7000/api/downloads/vj.v0.1_nansars_cov_2.csv.gz',
+      description: 'Compressed file containing all available metadata for Non-SARS-CoV-2.',
+      version: '0.1',
+      size: '43 MB',
+      date:'15.10.2023',
+    },
+    {
       name: 'Influenza A virus',
       url: 'http://192.168.10.12:7000/api/downloads/vj.v0.1_influenza_A_virus.csv.gz',
       description: 'Compressed file containing all available metadata for Influenza A virus.',

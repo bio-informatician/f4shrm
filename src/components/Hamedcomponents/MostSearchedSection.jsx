@@ -22,6 +22,8 @@ const generateDownloadUrl = (item) => {
       return `${baseUrl}influenza.csv`;
     case 'phage':
       return `${baseUrl}phage.csv`;
+    case 'NonSARS-CoV-2':
+      return `${baseUrl}NonSARS-CoV-2.csv`;
     case 'SARS-CoV-2':
       return `${baseUrl}SARS-CoV-2.csv`; // Add this case
     default:
